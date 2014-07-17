@@ -4,7 +4,7 @@ description = 'android-pdfview'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion '19.0.3'
+    buildToolsVersion '19.1.0'
 
     sourceSets {
         main {
@@ -12,4 +12,11 @@ android {
             jniLibs.srcDirs = [ 'libs' ]
         }
     }
+}
+
+
+dependencies {
+
+    compile 'com.nineoldandroids:library:2.4.0'
+
 }
